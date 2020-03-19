@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MadLib Project - React</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Titillium+Web:wght@600&display=swap"
+        rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">What I Do</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Intro-->
+    <section class="intro">
+        <h1 class="section__title__section__title--intro">
+            Mad Lib React Project
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">A MadLib Generator</p>
+        <img src="img/MadLib Img.png" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>This project was created using <strong>React</strong>. It is a MadLib game in which you input your responses and the application returns a sentence. The game has 6 inputs, a submit button, and a reset button.</p>
+        <p>The sentence output is: <em>We all went to the {noun} after {verb} beforehand. Out of nowhere, the {adj} {noun2} {verb2} in the sky!! We were so relieved when the {noun3} emerged from the {noun2}.</em></p>
+        <p> The link to the repository is <a href="https://github.com/fdromero32/MadLib" target="_blank">here</a>.
+        </p>
+        <img src="img/Madlib.gif" alt="">
+    </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:fdromero32@gmail.com" class="footer__link">fdromero32@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/fdromero/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:fdromero32@gmail.com">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/fdromero32" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
