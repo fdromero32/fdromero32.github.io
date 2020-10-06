@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PicSome - E-Commerce Site</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Titillium+Web:wght@600&display=swap"
+        rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"> <img src="img/logo.png"  alt="logo"> </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">What I Do</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Intro-->
+    <section class="intro" style="padding-bottom: 10px; padding-top: 50px;">
+        <h1 class="section__title__section__title--intro" >
+            E-Commerce Site
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Single Page Application using React</p>
+        <img src="img/PicSome.jpg" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>This project was created using <strong>React</strong>. Some of the advanced React concepts I used were React Hooks, React Context, and React Router.</p>
+        <p>I wanted to learn more about React and its advanced topics, so I used the website Scrimba to create this fake E-Commerce site that allows the user to <strong>favorite</strong>, <strong>add to cart</strong>, and <strong>checkout</strong>.</p>
+        <p>This project was quite challenging as it incorporated React Context API. Using that for the first time required a lot of extra research. Additionally, I struggled with logic regarding handleChange events. Overall, it was a great review of React and a great lesson to learn advanced React topics. </p>
+
+        <p> The link to the repository is <a href="https://github.com/fdromero32/Fake-Ecommerce-Site-using-React" target="_blank">here</a>.
+        </p>
+        <img src="img/PicSome.gif" alt="">
+        <p style="text-align:center"><a href="index.html#work" class="back">Back</a></p>
+    </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:fdromero32@gmail.com" class="footer__link">fdromero32@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/fdromero/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:fdromero32@gmail.com">
+                        <i class="far fa-envelope fa-2x"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/fdromero32" target="_blank">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
